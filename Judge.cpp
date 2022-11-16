@@ -37,9 +37,7 @@ void Output::judge(){
         stringstream ss(codefiles[i]);
         string tmp;
         getline(ss, tmp, '.');
-        //cout<<tmp<<endl;
         outfileName.push_back(tmp+"out.txt");
-        //cout<<outfileName[i]<<endl;
      }
     
     int l=filePath.size();
