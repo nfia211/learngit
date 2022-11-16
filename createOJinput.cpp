@@ -56,7 +56,7 @@ string RandString(int min,int max){
 InputFile::InputFile(string path){
     fatherPath = path;
     stdinPath = path+"/stdin_format.txt";
-    inputFilePath = path +"/input" + ".in";
+    inputFilePath = path +"/input" + ".txt";
     this->getInputTypes();
 }
 void InputFile::getInputTypes(){//char -1 int -2 string -3
